@@ -1,0 +1,174 @@
+body{
+  /* font-family: "Montserrat"; */
+  text-align: center;
+}
+
+
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+/* Headings */
+.big-heading{
+  /* font-family: "Montserrat-Black"; */
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+
+/* Navigation-bar */
+.navbar-brand{
+  font-family:" Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.a{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+/* Download-button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title-image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+
+/* Features section */
+#features{
+  padding: 7% 15%;
+  background-color:#fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  /* text-align: center; */
+  /* padding: 5%; */
+}
+
+.feat-ures{
+  font-family: "Montserrat-Bold";
+  font-weight: 900;
+  font-size: 2.0rem;
+}
+
+.prgph{
+  color: #8f8f8f;
+}
+
+.fas{
+  color: #ef8172;
+  size:30px;
+}
+
+.fas:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials{
+  background-color: #ef8172;
+  color:#fff;
+}
+
+.testimonial-text{
+  font-size: 3.2rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding:7% 15%;
+}
+
+#press{
+  background-color:#ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing{
+  padding:100px;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+.price-text{
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.pricing-head{
+  font-size: 3.2rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+@media (max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform:rotate(0);
+  }
+}
+
+/* CTA section */
+#cta{
+  background-color: #ff4c68;
+  color:#fff;
+  padding: 7% 15%;
+}
+
+#footer{
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.footericon{
+  color: #000;
+  margin: 20px 10px;
+}
